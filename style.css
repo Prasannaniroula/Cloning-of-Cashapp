@@ -1,0 +1,101 @@
+ body{
+            background-color: #1d9a29;
+        }
+        .main{
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          
+        }
+        .photo{
+       
+            height: 60px;
+            width: 60px;
+        }
+         .medium{
+          margin-top:20px;
+          color: whitesmoke;
+          font-size: 25px;
+          
+         }
+        .second{
+            height: 50px;
+            width: 50px
+ 
+        }
+        .mid{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+        }
+       .mid h1{
+         color: whitesmoke;
+         font-size: 80px;
+    
+       }
+       .send{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color:white;
+       }
+       #number{
+        color: whitesmoke;
+         font-size: 80px;
+       }
+    .field{
+        display: grid;
+        place-items: center;
+    }
+
+       input{
+        border: none;
+        font-size: 30px;
+        height: 40px;
+        width: 350px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 20px;
+        background-color:#0d4b13 ;
+        text-align: center;
+        color: whitesmoke;
+       }
+       input:focus{
+         outline: none;
+         border: none;
+         
+       }
+      .button{
+        display: grid;
+        place-items: center;
+        
+      }
+
+      #sendto{
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 20px;
+        color: whitesmoke;
+        background-color: #1fad2e;
+        border: none;
+      }
+      .buttom{
+           bottom: 0;
+           display: flex;
+           justify-content: space-between;
+           position: sticky;
+           width: 100%;
+           background: #1d9a29;
+           margin-top: 30vh;
+      }
+      .box{
+        margin: 1rem;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }

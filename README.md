@@ -1,2 +1,2 @@
 # Cloning-of-Cashapp
-This is only for education purposes
+This is only for education purposes.
